@@ -37,19 +37,20 @@
 | ResNet18     | T(TU-Berlin) | TripletMarginLoss |       |       |
 
 #### Test Set(retrieval)
-| Model branch | pretrained               | Loss Function                     | Rank@1 | Rank@5 | Rank@10 | corr  |
-| ------------ | ------------------------ | --------------------------------- | ------ | ------ | ------- | ----- |
-| Origin       |                          | Triplet Loss                      | 39.13  | --     | 87.83   | 69.49 |
-| SketchANet   | TU-Berlin                | Triplet Loss                      | 45.217 | 77.391 | 82.609  | 72.15 |
-| AlexNet      | ImageNet+TU-Berlin       | Triplet Loss                      | 45.217 | 74.783 | 86.087  | 73.70 |
-| AlexNet      | T                        | TripletMarginLoss                 |        |        |         |       |
-| ResNet18     | TU-Berlin                | TripletLoss                       | 26.957 | 51.304 | 64.348  | 64.54 |
-| ResNet18     | T                        | MarginRankingLoss                 |        |        |         |       |
-| ResNet18     | TU-Berlin                | MarginRankingLoss                 | 29.565 | 50.435 | 69.565  | 64.21 |
-| ResNet18     | ImageNet                 | TripletMarginLoss                 |        |        |         |       |
-| ResNet18     | TU-Berlin                | TripletMarginLoss                 | 25.217 | 53.043 | 65.217  | 64.79 |
-| ResNet18     | TU-Berlin                | TripletMarginLoss + embedded_norm |        |        |         |       |
-| SketchANet   | ImageNet(edge)+TU-Berlin | Triplet Loss(square_distance)     | 52.174 | --     | 92.174  | --    |
+| Model branch        | pretrained               | Loss Function                     | Rank@1 | Rank@5 | Rank@10 | corr  |
+| ------------------- | ------------------------ | --------------------------------- | ------ | ------ | ------- | ----- |
+| Origin<sup>i</sup>  |                          | Triplet Loss                      | 39.13  | --     | 87.83   | 69.49 |
+| Origin<sup>ii</sup> | ImageNet(edge)+TU-Berlin | Triplet Loss(square_distance)     | 52.174 | --     | 92.174  | --    |
+| SketchANet          | TU-Berlin                | Triplet Loss                      | 45.217 | 77.391 | 82.609  | 72.15 |
+| AlexNet             | ImageNet+TU-Berlin       | Triplet Loss                      | 45.217 | 74.783 | 86.087  | 73.70 |
+| AlexNet             | T                        | TripletMarginLoss                 |        |        |         |       |
+| ResNet18            | TU-Berlin                | TripletLoss                       | 26.957 | 51.304 | 64.348  | 64.54 |
+| ResNet18            | T                        | MarginRankingLoss                 |        |        |         |       |
+| ResNet18            | TU-Berlin                | MarginRankingLoss                 | 29.565 | 50.435 | 69.565  | 64.21 |
+| ResNet18            | ImageNet                 | TripletMarginLoss                 |        |        |         |       |
+| ResNet18            | TU-Berlin                | TripletMarginLoss                 | 25.217 | 53.043 | 65.217  | 64.79 |
+| ResNet18            | TU-Berlin                | TripletMarginLoss + embedded_norm |        |        |         |       |
+
 
 
 ### Chairs
@@ -61,10 +62,10 @@
 | SketchANet   | TU-Berlin  | Triplet Loss  | 74.46 | 51.09 |
 
 #### Test Set(retrieval)
-| Model branch | pretrained               | Loss Function                 | Rank@1 | Rank@5 | Rank@10 | corr  |
-| ------------ | ------------------------ | ----------------------------- | ------ | ------ | ------- | ----- |
-| Origin       |                          | Triplet Loss                  | 69.07  | --     | 97.94   | 72.30 |
-| SketchANet   | TU-Berlin                | Triplet Loss                  | 76.289 | 91.753 | 92.784  | 73.45 |
-| AlexNet      | ImageNet+TU-Berlin       | Triplet Loss                  | 63.918 | 87.629 | 92.784  | 73.13 |
-| ResNet18     | ImageNet+TU-Berlin       | Triplet Loss                  | 61.856 | 87.629 | 93.814  | 76.01 |
-| SketchANet   | ImageNet(edge)+TU-Berlin | Triplet Loss(square_distance) | 72.16  | --     | 98.96   | --    |
+| Model branch        | pretrained               | Loss Function                 | Rank@1 | Rank@5 | Rank@10 | corr  |
+| ------------------- | ------------------------ | ----------------------------- | ------ | ------ | ------- | ----- |
+| Origin<sup>i</sup>  |                          | Triplet Loss                  | 69.07  | --     | 97.94   | 72.30 |
+| Origin<sup>ii</sup> | ImageNet(edge)+TU-Berlin | Triplet Loss(square_distance) | 72.16  | --     | 98.96   | --    |
+| SketchANet          | TU-Berlin                | Triplet Loss                  | 76.289 | 91.753 | 92.784  | 73.45 |
+| AlexNet             | ImageNet+TU-Berlin       | Triplet Loss                  | 63.918 | 87.629 | 92.784  | 73.13 |
+| ResNet18            | ImageNet+TU-Berlin       | Triplet Loss                  | 61.856 | 87.629 | 93.814  | 76.01 |
