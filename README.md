@@ -69,3 +69,8 @@
 | SketchANet          | TU-Berlin                | Triplet Loss                  | 76.289 | 91.753 | 92.784  | 73.45 |
 | AlexNet             | ImageNet+TU-Berlin       | Triplet Loss                  | 63.918 | 87.629 | 92.784  | 73.13 |
 | ResNet18            | ImageNet+TU-Berlin       | Triplet Loss                  | 61.856 | 87.629 | 93.814  | 76.01 |
+
+
+**[Reference]**
+* 1. *Sketch Me That Shoe*
+  2. *Deep Spatial-Semantic Attention for Fine-Grained Sketch-Based Image Retrieval*
