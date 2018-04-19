@@ -41,7 +41,7 @@
 | ------------ | ------------------------ | --------------------------------- | ------ | ------ | ------- | ----- |
 | Origin       |                          | Triplet Loss                      | 39.13  | --     | 87.83   | 69.49 |
 | SketchANet   | TU-Berlin                | Triplet Loss                      | 45.217 | 77.391 | 82.609  | 72.15 |
-| AlexNet      | ImageNet+TU-Berlin       | Triplet Loss                      | 33.913 | 66.087 | 80.870  | 72.83 |
+| AlexNet      | ImageNet+TU-Berlin       | Triplet Loss                      | 45.217 | 74.783 | 86.087  | 73.70 |
 | AlexNet      | T                        | TripletMarginLoss                 |        |        |         |       |
 | ResNet18     | TU-Berlin                | TripletLoss                       | 26.957 | 51.304 | 64.348  | 64.54 |
 | ResNet18     | T                        | MarginRankingLoss                 |        |        |         |       |
