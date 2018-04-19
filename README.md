@@ -41,6 +41,7 @@
 | ------------ | ------------------------ | --------------------------------- | ------ | ------ | ------- | ----- |
 | Origin       |                          | Triplet Loss                      | 39.13  | --     | 87.83   | 69.49 |
 | SketchANet   | TU-Berlin                | Triplet Loss                      | 45.217 | 77.391 | 82.609  | 72.15 |
+| AlexNet      | ImageNet+TU-Berlin       | Triplet Loss                      | 33.913 | 66.087 | 80.870  | 72.83 |
 | AlexNet      | T                        | TripletMarginLoss                 |        |        |         |       |
 | ResNet18     | TU-Berlin                | TripletLoss                       | 26.957 | 51.304 | 64.348  | 64.54 |
 | ResNet18     | T                        | MarginRankingLoss                 |        |        |         |       |
@@ -64,5 +65,6 @@
 | ------------ | ------------------------ | ----------------------------- | ------ | ------ | ------- | ----- |
 | Origin       |                          | Triplet Loss                  | 69.07  | --     | 97.94   | 72.30 |
 | SketchANet   | TU-Berlin                | Triplet Loss                  | 76.289 | 91.753 | 92.784  | 73.45 |
-| ResNet18     | TU-Berlin                | Triplet Loss                  | 61.856 | 87.629 | 93.814  | 76.01 |
+| AlexNet      | ImageNet+TU-Berlin       | Triplet Loss                  | 63.918 | 87.629 | 92.784  | 73.13 |
+| ResNet18     | ImageNet+TU-Berlin       | Triplet Loss                  | 61.856 | 87.629 | 93.814  | 76.01 |
 | SketchANet   | ImageNet(edge)+TU-Berlin | Triplet Loss(square_distance) | 72.16  | --     | 98.96   | --    |
